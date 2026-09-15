@@ -7,8 +7,8 @@ import streamlit as st
 from streamlit.errors import StreamlitSecretNotFoundError
 
 st.set_page_config(page_title="Watchlist Explorer", layout="wide")
-st.title("Watchlist Explorer 2")
-st.caption("Six tech stocks, weekly, 2018-2025. Indexed to 1.00 on 2018-01-01.")
+st.title("Watchlist Explorer")
+st.caption("Six tech stocks, weekly, 2018-2019. Indexed to 1.00 on 2018-01-01.")
 
 
 def get_api_key():
